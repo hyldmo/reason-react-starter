@@ -3,7 +3,7 @@ let component = ReasonReact.statelessComponent("App");
 
 let make = (_children) => {
 	...component,
-	render: self =>
+	render: _ =>
 	<div>
 		<Component1 message="Hello!" />
 		<Component2 greeting="Hello!" />
