@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "scripts": {
     "start": "bsb -make-world -w",
-    "dev": "webpack-dev-server --colors --hot",
-    "build": "bsb -make-world && webpack --progress --colors",
+    "dev": "webpack-dev-server --progress --colors --hot",
+    "build": "bsb -make-world && webpack --colors",
     "clean": "bsb -clean-world",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
