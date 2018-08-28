@@ -1,0 +1,31 @@
+{
+  "name": "react-react-starter-kit",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "bsb -make-world -w",
+    "dev": "webpack-dev-server --colors --hot",
+    "build": "bsb -make-world && webpack --progress --colors",
+    "clean": "bsb -clean-world",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "BuckleScript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "reason-react": "^0.5.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/register": "^7.0.0",
+    "bs-platform": "^4.0.5",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.0.1",
+    "webpack-cli": "^2.0.10",
+    "webpack-dev-server": "^3.1.6"
+  }
+}
