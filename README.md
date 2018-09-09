@@ -1,5 +1,7 @@
 # devnull
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/hyldmo/reason-react-starter.svg)](https://greenkeeper.io/)
+
 ## Run Project
 
 ```sh
